@@ -50,7 +50,7 @@ module "k8s" {
   cluster_endpoint = module.gke.cluster_endpoint
   # cluster_endpoint = "https://104.155.31.46"
   # client_certificate = module.gke.client_certificate
-  cluster_namespace = "vault-cluster"
+  cluster_namespace = "vault"
   # client_key = module.gke.client_key
   ca_certificate = module.gke.ca_certificate
   location = var.gcp_zone
